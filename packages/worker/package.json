@@ -1,0 +1,18 @@
+{
+  "name": "@oc/worker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node-dev src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^13.1.7",
+    "@types/redis": "^2.8.14",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.7.4"
+  },
+  "dependencies": {
+    "redis": "^2.8.0"
+  }
+}
